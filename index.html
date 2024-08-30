@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Uma aventura</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <h1>Brasil a fora</h1>
+            <img src="images.jpeg" alt="">
+            <h2>Contexto.</h2>
+            <p>Essa viagem pelo Brasil é uma celebração da diversidade do país, explorando suas diferentes regiões, culturas e paisagens. A jornada oferece a chance de vivenciar praias, florestas, montanhas e cidades históricas, conectando-se com a rica cultura e natureza brasileira, e criando memórias únicas.</p>
+            <p>Seguir a Aventura?</p>
+                <button class="btn-proximo" data-proximo="1">Nordeste</button>
+                <button class="btn-proximo" data-proximo="2">Amazônia</button>
+                <button class="btn-proximo" data-proximo="3">Sul</button>
+            </div>
+
+            <div class="passo" id="passo-1">
+             <h2>Nordeste</h2>
+             <img src="Salvador.jpg" alt="">
+             <p>Conhecida por suas praias deslumbrantes, cultura rica, e culinária saborosa, o Nordeste é um destino vibrante e colorido, com cidades históricas como Salvador e ilhas paradisíacas como Fernando de Noronha.</p>
+             <p>Seguir a Aventura?</p>
+             <button class="btn-proximo" data-proximo="4">Visite Salvador</button>
+             <button class="btn-proximo" data-proximo="5">Explore os Lençóis Maranhenses</button>
+             <button class="btn-proximo" data-proximo="10">voltar para casa</button>
+            </div>
+
+            <div class="passo" id="passo-2">
+             <h2>Amazônia</h2>
+             <img src="amazonas.png" alt="">
+             <p>O pulmão do mundo, a Amazônia é uma vasta e densa floresta tropical, lar de uma biodiversidade incomparável e paisagens deslumbrantes, com rios majestosos e uma rica cultura indígena.</p> 
+             <p>Seguir a Aventura?</p>
+             <button class="btn-proximo" data-proximo="6">Manaus</button>
+             <button class="btn-proximo" data-proximo="7">Passeio de barco</button>
+             <button class="btn-proximo" data-proximo="10">voltar para casa</button>
+            </div>
+
+            <div class="passo" id="passo-3">
+             <h2>Sul</h2>
+             <img src="Cataratas.jpg" alt="">
+             <p>Uma região de climas temperados e paisagens europeias, o Sul do Brasil oferece serras encantadoras, vinícolas, e as impressionantes Cataratas do Iguaçu, combinando natureza exuberante com influências culturais diversificadas.</p>
+             <p>Seguir a Aventura?</p>
+             <button class="btn-proximo" data-proximo="8">Gramado e Canela</button>
+             <button class="btn-proximo" data-proximo="9">Foz do Iguaçu</button>
+             <button class="btn-proximo" data-proximo="10">voltar para casa</button>
+            </div>
+
+            <div class="passo" id="passo-4">
+             <h2>Salvador</h2>
+             <p>A capital da Bahia é o coração cultural do Brasil, com seu centro histórico, Pelourinho, repleto de casas coloridas, igrejas antigas, e uma vibrante cena musical e gastronômica.</p>
+             <button class="btn-proximo" data-proximo="10">voltar para casa</button>
+            </div>
+
+            <div class="passo" id="passo-5">
+             <h2>Lençóis Maranhenses</h2>
+             <p>Um dos cenários mais surreais do Brasil, o Parque Nacional dos Lençóis Maranhenses no Maranhão é conhecido por suas vastas dunas de areia branca intercaladas com lagoas cristalinas formadas pela chuva.</p>
+             <button class="btn-proximo" data-proximo="10">voltar para casa</button>
+            </div>
+
+            <div class="passo" id="passo-6">
+             <h2>Manaus</h2>
+             <p>Situada no coração da Amazônia, Manaus é o ponto de partida para explorar a floresta tropical e ver o famoso Encontro das Águas, onde os rios Negro e Solimões correm lado a lado sem se misturar.</p>
+             <button class="btn-proximo" data-proximo="10">voltar para casa</button>
+            </div>
+
+            <div class="passo" id="passo-7">
+             <h2>Passeio de barco</h2>
+             <p>Um passeio de barco pela Amazônia oferece uma imersão na floresta tropical, navegando por rios imensos e observando a rica fauna, como botos e aves exóticas. Você pode visitar comunidades ribeirinhas, vivenciar a cultura local e testemunhar o Encontro das Águas, onde rios de cores diferentes correm lado a lado sem se misturar. É uma experiência única de conexão profunda com a natureza.</p>
+             <button class="btn-proximo" data-proximo="10">voltar para casa</button>             
+            </div>
+
+            <div class="passo" id="passo-8">
+             <h2>Gramado e Canela</h2>
+             <p>Estas cidades na Serra Gaúcha oferecem uma atmosfera europeia, com arquitetura em estilo alpino, festivais de inverno, chocolates artesanais e belas paisagens montanhosas.</p>
+             <button class="btn-proximo" data-proximo="10">voltar para casa</button>
+            </div>
+
+            <div class="passo" id="passo-9">
+             <h2>Foz do Iguaçu</h2>
+             <p>Localizada na fronteira entre Brasil, Argentina e Paraguai, Foz do Iguaçu abriga as espetaculares Cataratas do Iguaçu, uma das maiores e mais impressionantes quedas d'água do mundo, cercada por um parque nacional exuberante.</p>
+             <button class="btn-proximo" data-proximo="10">voltar para casa</button>
+            </div>
+
+            <div class="passo" id="passo-10">
+             <h2>Fim da viagem..</h2>
+             <p>você chegou ao fim</p>
+             <button class="btn-proximo" data-proximo="0">Voltar ao menu</button>
+            </div>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
